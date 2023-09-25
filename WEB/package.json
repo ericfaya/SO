@@ -1,0 +1,23 @@
+{
+  "name": "meres",
+  "version": "0.0.0",
+  "description": "La meva primera pagina web",
+  "main": "basics.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ç"
+  },
+  "keywords": [
+    "html",
+    "tags",
+    "estructurals",
+    "display",
+    "dom",
+    "cssom"
+  ],
+  "author": "Eric Faya-Esteban",
+  "license": "MIT"
+}
