@@ -137,11 +137,12 @@ void readBinaryFile(int fd_file_bin,º int *nensCount,Nen *nuevoNen) {
     close(fd_file_bin);
 }
 
+
 int main(int argc, char *argv[]) {
     int fd_file_bin;
     Nen *nens[25];
     int nensCount = 0;
-
+    
         for (int i = 0; i < 25; i++) {
             Nen *nuevoNen = malloc(sizeof(Nen));//Pero clar d'aquesta forma cada cop que entra fa un malloc i no ho volem
             if (nuevoNen != NULL) {
