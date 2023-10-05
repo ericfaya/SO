@@ -143,6 +143,8 @@ int main(int argc, char *argv[]) {
     Nen *nens[25];
     int nensCount = 0;
     asdsad
+    sadasasdasdssasa
+    assasa
         for (int i = 0; i < 25; i++) {
             Nen *nuevoNen = malloc(sizeof(Nen));//Pero clar d'aquesta forma cada cop que entra fa un malloc i no ho volem
             if (nuevoNen != NULL) {
